@@ -4,8 +4,8 @@ function addElementToBeginningOfArray(a, b) {
   return [b, ...a]
 }
 
-function destructivelyAddElementToBeginningOfArray(a, b) {
-  var a = ["a"]
-  a.unshift("b")
+function destructivelyAddElementToBeginningOfArray(1, "foo") {
+  var a = [1]
+  a.unshift("foo")
   return a
 }
